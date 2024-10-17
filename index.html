@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>500 Days of Love</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500&family=Dancing+Script:wght@600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>500 Days of Love 💖</h1>
+            <p>Happy 500-day anniversary, my love!</p>
+        </header>
+
+        <section class="countdown">
+            <h2>We've spent <span id="">500</span> days together!</h2>
+        </section>
+
+        <section class="timeline">
+            <h2>To My Beautiful Lovely Wife</h2>
+            <ul>
+                <li>500 days together, and every single one has been a beautiful adventure with you by my side. From our first moment to now, you’ve filled my heart with more love, joy, and happiness than I could ever imagine. You are my everything, my forever. ✨</li>
+                <li>I love you and I am proud of you 💖</li>
+                <li>Love you sooo much 🌹</li>
+                <li>Thank you for making life so much brighter, for your laughter, your kindness, and your endless support. Every day with you feels like a dream I never want to wake up from. 💞</li>
+            </ul>
+        </section>
+
+        <section class="playlist">
+            <h2>Our Song Playlist 🎶</h2>
+            <iframe src="https://open.spotify.com/embed/track/6xGruZOHLs39ZbVccQTuPZ" width="300" height="80" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+        </section>
+
+        <footer>
+            <p>Here's to many more days of love!</p>
+        </footer>
+    </div>
+
+    <script>
+        // Countdown Logic
+        const startDate = new Date('2023-05-01'); // Adjust the start date to when you started dating
+        const currentDate = new Date();
+        const timeDiff = currentDate - startDate;
+        const daysTogether = Math.floor(timeDiff / (1000 * 60 * 60 * 24));
+        document.getElementById('days').textContent = daysTogether;
+    </script>
+</body>
+</html>
+

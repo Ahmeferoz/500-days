@@ -1,0 +1,78 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    background-color: #fef5f7;
+    color: #333;
+}
+
+.container {
+    text-align: center;
+    padding: 20px;
+}
+
+header {
+    background-color: #ffccda;
+    padding: 40px;
+    border-radius: 20px;
+}
+
+header h1 {
+    font-family: 'Dancing Script', cursive;
+    font-size: 3em;
+    color: #ff6699;
+}
+
+header p {
+    font-size: 1.2em;
+}
+
+.countdown {
+    margin: 20px 0;
+    font-size: 2em;
+}
+
+.photo-gallery {
+    margin: 40px 0;
+}
+
+.gallery {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.gallery img {
+    width: 150px;
+    height: 150px;
+    border-radius: 20px;
+    object-fit: cover;
+}
+
+.timeline {
+    margin: 40px 0;
+    font-size: 1.2em;
+}
+
+.timeline ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.timeline li {
+    background-color: #ffccda;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.playlist {
+    margin: 40px 0;
+}
+
+footer {
+    margin-top: 50px;
+    font-size: 1.2em;
+    background-color: #ffccda;
+    padding: 20px;
+    border-radius: 20px;
+}
